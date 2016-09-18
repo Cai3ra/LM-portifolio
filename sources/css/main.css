@@ -104,14 +104,14 @@ body, html {
 
 @media screen and (max-width: 1440px) {
   .header {
-      height: 80px;
+      height: 60px;
+  }
+  .header .logo {
+      width: 34px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .header {
-      height: 80px;
-  }
 
   .header .logo {
       left: 20px;
@@ -125,14 +125,14 @@ body, html {
 /* END HEADER */
 
 /* BEGIN HOME */
-.home .thumbs {
+.thumbs {
     width:100%;
     margin-top: 100px;
     position: relative;
     display: inline-block; 
 }
 
-.home .thumbs .thumb {
+.thumbs .thumb {
     width: 100%;
     height: auto;
     display: inline-block;
@@ -142,14 +142,14 @@ body, html {
     overflow: hidden;
 }
 
-.home .thumbs .thumb .bg {
+.thumbs .thumb .bg {
     width: 100%;
     height: auto;
     transition: transform 2s ease;
     -webkit-transition: transform 2s ease;
 }
 
-.home .thumbs .thumb .title {
+.thumbs .thumb .title {
     position: absolute;
     left: 4%;
     top: 50%;
@@ -159,28 +159,28 @@ body, html {
     font-size: 35px;
 }
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
-    .home .thumbs .thumb .title {
+    .thumbs .thumb .title {
         font-size: calc(26px + (35 - 26) * ( (100vw - 1440px) / ( 1920 - 1440)));
     }
 }
 @media screen and (max-width: 1440px) {
-    .home .thumbs {
-        margin-top: 80px;
+    .thumbs {
+        margin-top: 60px;
     } 
 }
 @media screen and (max-width: 1023px) {
       
-    .home .thumbs .thumb .title {
+    .thumbs .thumb .title {
         font-size: 14px;
     }
 }
 
-.home .thumbs .thumb:hover .bg {
+.thumbs .thumb:hover .bg {
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
 }
 
-.home .thumbs .thumb .title:before {
+.thumbs .thumb .title:before {
     content: '';
     display: block;
     position: absolute;
@@ -191,7 +191,7 @@ body, html {
     transition: width 0s ease, background .6s ease;
     -webkit-transition: width 0s ease, background .6s ease;
 }
-.home .thumbs .thumb .title:after {
+.thumbs .thumb .title:after {
     content: '';
     display: block;
     position: absolute;
@@ -204,14 +204,14 @@ body, html {
     -webkit-transition: width .6s ease;
 }
 
-.home .thumbs .thumb:hover .title:before {
+.thumbs .thumb:hover .title:before {
     width: 100%;
     background: #ffffff;
     transition: width .6s ease;
     -webkit-transition: width .6s ease;
 }
 
-.home .thumbs .thumb:hover .title:after {
+.thumbs .thumb:hover .title:after {
     width: 100%;
     background: transparent;
     transition: all 0s ease;
@@ -272,9 +272,6 @@ body, html {
 }
 
 @media screen and (max-width: 1023px) {
-  .footer {
-      height: 80px;
-  }
 
   .footer .links {
       bottom: 14px;
@@ -303,4 +300,125 @@ body, html {
     background-color: #aeaeae;
     color: #ffffff;
 }
+
+.title-default {
+    font-size: calc(16px + (23 - 16) * ( (100vw - 1440px) / ( 1920 - 1440)));
+    color: #5d5c5c;
+    width: 33%;
+    text-align: center;
+    line-height: 30px;
+}
+@media screen and (max-width: 1440px) {
+    .title-default {
+        width: 90%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title-default {
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
+
+/* BEGIN CONTENT INTERN */
+.content {
+    width:100%;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.content .title-default {
+    display: block;
+    margin: 105px auto 0 auto;
+}
+
+.content .video {
+    width: 1500px;
+    height: 850px;
+    display: block;
+    margin: 20px auto 50px auto;
+}
+
+.content .image-center {
+    width: 1500px;
+    height: auto;
+    display: block;
+    margin: 20px auto 50px auto;
+}
+
+.content .image-full {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 50px auto;
+}
+
+.content .bt-next {
+    width: 11%;
+    font-size: calc(26px + (35 - 26) * ( (100vw - 1440px) / ( 1920 - 1440)));
+    margin: 100px auto 0 auto;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .content {
+      margin-top: 60px;
+  }
+
+  .content .title-default {
+      margin-top: 40px;
+      max-width: 440px;
+  }
+
+  .content .image-center {
+      width: 1152px;
+  }
+  .content .video {
+      width: 1152px;
+      height: 648px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .content .image-center {
+        width: 768px;
+    }
+    .content .video {
+        width: 768px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .content .title-default {
+        max-width: 300px;
+    }
+
+    .content .image-center {
+        width: 256px;
+        margin-top: 10px;
+    }
+    .content .image-full {
+        margin-top: 10px;
+    }
+
+    .content .video {
+        width: 256px;
+        height: 144px;
+        margin-top: 10px;
+    }
+
+    .content .bt-next {
+        width: 25%;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
+/* END CONTENT INTERN */
 

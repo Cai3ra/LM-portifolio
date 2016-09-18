@@ -9,7 +9,7 @@ Neste são apresentados trabalhos comerciais e alguns pessoais.
   - Javascript
   
 ### Dependências do projeto:
-  - jquery (versão ^2.2.4)
+  - jquery (versão ^3.1.0)
 
 ### Arquitetura:
   - 
