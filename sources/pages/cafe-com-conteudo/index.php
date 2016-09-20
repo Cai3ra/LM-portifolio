@@ -6,6 +6,6 @@
     <img src="../../img/content/cafe-conteudo.jpg" alt="Café com conteúdo.." class="image-center">
     <h3 class="title-default">RESULTADOS</h3>
     <img src="../../img/content/cafe-conteudo-full.jpg" alt="Não importa o destino, o amor ainda faz a gente voar." class="image-full">
-    <a href="javascript:void(0)" class="bt-default bt-next">PRÓXIMO</a>
+    <a href="../20-anos-de-fidelidade" class="bt-default bt-next">PRÓXIMO</a>
 </article>
 <?php include "../../includes/footer-intern.php" ?>

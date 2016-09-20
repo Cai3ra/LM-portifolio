@@ -45,3 +45,4 @@
             <a href="../../"><img src="../../img/logo.png" alt="Lm" class="logo"></a>
             <a href="javascript:void(0)" class="bt-default bt-about">SOBRE</a>
         </header>
+        <?php include "../../includes/about-intern.php" ?>

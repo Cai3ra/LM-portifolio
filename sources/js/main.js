@@ -3,7 +3,7 @@ var app = {
         app.addListeners();
     },
     addListeners: function() {
-        console.log("addListeners")
+        $(".bt-about").on("click", app.toggleAbout);
         if ($(".thumbs").length > 0) {
             $(".thumbs .thumb").on("click", app.goToPage);
         }
@@ -13,6 +13,15 @@ var app = {
         var _url = $(e.currentTarget).data("url");
         console.info(_url)
         window.location.href = _url;
+    },
+    toggleAbout: function(e) {
+        if ($(".about").hasClass("opened")) {
+            $(".about").removeClass("opened");
+            $(".bt-about").text("SOBRE");
+        } else {
+            $(".about").addClass("opened");
+            $(".bt-about").text("FECHAR");
+        }
     }
 }
 

@@ -6,6 +6,6 @@
     <img src="../../img/content/caixa-secreta-2.jpg" alt="Caixa secreta, esconda seu lado egoísta.." class="image-center">
     <h3 class="title-default">PRODUÇÃO</h3>
     <img src="../../img/content/caixa-secreta-full.jpg" alt="Produção, caixa secreta." class="image-full">
-    <a href="javascript:void(0)" class="bt-default bt-next">PRÓXIMO</a>
+    <a href="../cafe-com-conteudo" class="bt-default bt-next">PRÓXIMO</a>
 </article>
 <?php include "../../includes/footer-intern.php" ?>
