@@ -30,14 +30,14 @@
         <h3 class="title">PARAMOUNT / FILMES FAVORITOS ONDE ESTIVER</h3>
     </section>
 
-    <section class="thumb" data-url="./pages/doar-nao-custa-nada">
-        <img class="bg" src="img/thumbs/doar-nao-custa.jpg" alt="doe.nf / doar não custa nada">
-        <h3 class="title">DOE.NF / DOAR NÃO CUSTA NADA</h3>
-    </section>
-
     <section class="thumb" data-url="./pages/uma-embalagem-dura-mais-que-voce-imagina">
         <img class="bg" src="img/thumbs/embalagem-dura-mais.jpg" alt="doe.nf / uma embalagem dura mais que você imagina">
-        <h3 class="title">DOE.NF / UMA EMBALAGEM DURA MAIS QUE VOCÊ IMAGINA</h3>
+        <h3 class="title">AKATU / UMA EMBALAGEM DURA MAIS QUE VOCÊ IMAGINA</h3>
+    </section>
+
+    <section class="thumb" data-url="./pages/resolva-o-seu-dia-a-dia-online">
+        <img class="bg" src="img/thumbs/resolva-o-seu-dia.jpg" alt="meu vivo / resolva o seu dia a dia online">
+        <h3 class="title">MEU VIVO / RESOLVA O SEU DIA A DIA ONLINE</h3>
     </section>
 
     <section class="thumb" data-url="./pages/pessoal-posters">
