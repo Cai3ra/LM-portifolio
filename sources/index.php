@@ -1,5 +1,10 @@
 <?php include "includes/header.php" ?>
 <article class="thumbs">
+    <section class="thumb" data-url="./pages/destinos-coloridos">
+        <img class="bg" src="img/thumbs/destinos-coloridos.jpg" alt="azul / destinos coloridos">
+        <h3 class="title">AZUL / DESTINOS COLORIDOS</h3>
+    </section>
+
     <section class="thumb" data-url="./pages/gestos-de-carinho">
         <img class="bg" src="img/thumbs/gestos-de-carinho.jpg" alt="azul / gestos de carinho">
         <h3 class="title">AZUL / GESTOS DE CARINHO</h3>

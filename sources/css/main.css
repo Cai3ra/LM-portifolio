@@ -387,7 +387,12 @@ body, html {
   .content .title-default {
       margin-top: 40px;
       max-width: 480px;
+
   }
+
+  .content .title-default-large {
+        max-width: 600px;
+    }
 
   .content .image-center {
       width: 1152px;
